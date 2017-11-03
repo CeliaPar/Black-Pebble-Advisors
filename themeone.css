@@ -32,6 +32,22 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   letter-spacing: -.02em;
 }
+
+h1, h2 {
+  color: #7c1010 ; 
+}
+
+h3 { 
+font-weight: bold;
+}
+ 
+div.blabla {
+   width:1000px; /*width of your image*/
+   height:1000px; /*height of your image*/
+   background-image:url('pebble.jpeg');
+   margin:0; /* If you want no margin */
+   padding:0; /*if your want to padding */
+}
 [class*=float-] {
   margin: 0 auto 1em auto;
   display: block;
@@ -41,8 +57,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 600px) {
   h1 { font-size: 300%; }
-  h2 { font-size: 200%; }
-  h3 { font-size: 180%; }
+  h2 { font-size: 120%;  }
+  h3 { font-size: 100%; }
   h4 { font-size: 160%; }
   h5 { font-size: 140%; }
   h6 { font-size: 120%; }
